@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "require": {},
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "ZeroConfig\\ControllerExt\\": "src/"
