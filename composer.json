@@ -1,10 +1,10 @@
 {
-    "name": "0config/lv_controller_ext",
+    "name": "ZeroConfig/ControllerExt",
     "description": "Laravel Controller Extended",
     "type": "LV Controller Ext",
-    "require": { },
-    "minimum-stability": "beta", 
-
-        "psr-4": {"OConfig\\ControllerExt\\": "src/"}
-
+    "require": {},
+    "minimum-stability": "beta",
+    "psr-4": {
+        "ZeroConfig\\ControllerExt\\": "src/"
+    }
 }
