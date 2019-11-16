@@ -3,7 +3,7 @@
     "description": "Laravel Controller Extended",
     "type": "LVControllerExt",
     "require": {},
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "psr-4": {
         "ZeroConfig\\ControllerExt\\": "src/"
     }
