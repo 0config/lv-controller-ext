@@ -1,5 +1,5 @@
 {
-    "name": "ZeroConfig/ControllerExt",
+    "name": "zero-config/controller-ext",
     "description": "Laravel Controller Extended",
     "type": "LV Controller Ext",
     "require": {},
