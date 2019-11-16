@@ -1,10 +1,13 @@
 {
     "name": "0config/controller-ext",
     "description": "Laravel Controller Extended",
-    "type": "LVControllerExt",
+    "type": "library",
+    "license": "MIT",
     "require": {},
     "minimum-stability": "stable",
-    "psr-4": {
-        "ZeroConfig\\ControllerExt\\": "src/"
+    "autoload": {
+        "psr-4": {
+            "ZeroConfig\\ControllerExt\\": "src/"
+        }
     }
 }
