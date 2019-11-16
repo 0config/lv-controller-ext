@@ -2,6 +2,8 @@
 
 namespace ZeroConfig\ControllerExt;
 
+use App\Http\Controllers\Controller; 
+
 use Illuminate\Support\Facades\Auth;
 
 class ControllerExt extends Controller
