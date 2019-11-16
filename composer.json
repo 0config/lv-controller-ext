@@ -1,7 +1,7 @@
 {
     "name": "0config/controller-ext",
     "description": "Laravel Controller Extended",
-    "type": "LV Controller Ext",
+    "type": "LVControllerExt",
     "require": {},
     "minimum-stability": "beta",
     "psr-4": {
