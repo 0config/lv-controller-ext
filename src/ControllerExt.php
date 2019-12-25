@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 class ControllerExt extends Controller
 {
 
-   // public function isApiRequest() // TODO add this in gen
+   // public function isApiRequest() // TODO add this in gen // Removed in V1.4
 
    //{
    //     return (substr($_SERVER['REQUEST_URI'], 0, 5) == '/api/') ? true : false;
