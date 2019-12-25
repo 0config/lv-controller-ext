@@ -9,11 +9,11 @@ use Illuminate\Support\Facades\Auth;
 class ControllerExt extends Controller
 {
 
-    public function isApiRequest() // TODO add this in gen
+   // public function isApiRequest() // TODO add this in gen
 
-    {
-        return (substr($_SERVER['REQUEST_URI'], 0, 5) == '/api/') ? true : false;
-    }
+   //{
+   //     return (substr($_SERVER['REQUEST_URI'], 0, 5) == '/api/') ? true : false;
+   //}
 
     public function returnJsonError($id = null, $message = 'record not found or not authorized')
     {
@@ -46,10 +46,10 @@ class ControllerExt extends Controller
 
         if ($result == null) {
             // do your event logging here
-            if (self::isApiRequest() == true) {
+            //if (self::isApiRequest() == true) {
                 // TODO extract this to a method with custom error messages
-                $this->returnJsonError($id, 'record not found or not authorized ..');
-            }
+            //    $this->returnJsonError($id, 'record not found or not authorized ..');
+            // }
             $this->returnJsonError($id, 'record not found or not authorized ...'); // this may not be required
         }
 
