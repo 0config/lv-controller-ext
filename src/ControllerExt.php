@@ -25,7 +25,7 @@ class ControllerExt extends Controller
     public function PS_qFlashRedirect($message = 'your message here', $classSuffix = 'success', $inRoute = 'home') // changed to home
 
     {
-        session()->flash('message', $message . ' Psx');
+        session()->flash('message', $message);
         session()->flash('type', $classSuffix); // OPTIONS bs-class : info|success|danger|warning
 
         return redirect()->route($inRoute); // you redirect logic here..
